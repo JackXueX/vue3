@@ -5,14 +5,19 @@
     <router-link to="/main">首页</router-link>
 
     <router-view></router-view>
+
+    <el-button type="primary">哈哈哈哈</el-button>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { ElButton } from 'element-plus'
 export default defineComponent({
   name: 'App',
-  components: {}
+  components: {
+    ElButton
+  }
 })
 </script>
 
